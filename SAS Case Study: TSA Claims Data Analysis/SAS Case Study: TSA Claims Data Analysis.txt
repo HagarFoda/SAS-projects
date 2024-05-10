@@ -1,1 +1,14 @@
 SAS Case Study: TSA Claims Data Analysis
+Transportation Security Administration (TSA), an agency under the US Department of Homeland Security responsible for ensuring the security of the traveling public.
+The TSAClaims2002_2017.csv file has 14 columns and over 220,000 rows. Below are the columns it contains:
+Claim_Number: Number for each claim. Some claims can have duplicate claim numbers, but different information for each claim. Those claims are considered valid for this case study.
+Incident_Date: Date when an incident occurred.
+Date_Received: Date when a claim was filed.
+Claim_Type: Type of a claim. There are 14 valid claim types.
+Claim_Site: The site where a claim occurred. There are 8 valid values for the claims site.
+Disposition: Final settlement of a claim.
+Close_Amount: The dollar amount of the settlement.
+Item_Category: Type of items in a claim.
+Airport_Code: Code of airport where an incident occurred.
+Airport_Name: Name of the airport where an incident occurred.
+County, City, State, and StateName: Geographical information about the location of the airport. The State column has a two-letter state code and StateName has the full state name.
